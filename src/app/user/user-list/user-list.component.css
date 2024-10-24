@@ -1,0 +1,37 @@
+.user-container {
+    padding: 16px;
+  }
+  
+  
+  table {
+    width: 100%;
+  }
+
+.custom-table tr.mat-row:hover {
+  background-color: #090a0c; 
+  cursor: pointer;
+}
+.col-name {
+  width:10%;
+  text-align: left;
+  padding-right: 50px;
+}
+.table-body {
+  background-color:darkcyan;
+}
+.col-style {
+  width:5%;
+  text-align: left;
+  padding-right: 50px;
+}
+.font-style {
+  font-size: 14px;
+  background-color: grey;
+}
+:host ::ng-deep .mat-sort-header-content {
+  text-align: inherit;
+
+}
+:host ::ng-deep .mat-cell {
+  font-size: 12px;
+}
